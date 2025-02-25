@@ -1,0 +1,14 @@
+{
+  "name": "figlet",
+  "version": "1.0.0",
+  "description": "first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vishnu sharma",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.8.0"
+  }
+}
