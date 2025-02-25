@@ -1,0 +1,12 @@
+<%- include("includes/header.ejs")%>
+<body>
+    <h1> this is rolldice page </h1>
+    <!-- <h1> this is your number :<%=Math.floor(Math.random()*6)+1 %></h1> -->
+    <h1> the number is :<%=number %></h1>
+
+    <% if (number ==6){%>
+        <h1>nice dice roll again</h1>
+    <% }%>
+<%-include("includes/footer.ejs")%>
+</body>
+</html>

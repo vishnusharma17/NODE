@@ -1,0 +1,16 @@
+<%- include("includes/header.ejs")%>
+<body>
+<h1>welcome  in  instagram2</h1>
+<h1>this is your name <%= finaldata.name %></h1>
+<h1>this is your followers <%= finaldata.followers %></h1>
+<h1>this is you following <%= finaldata.following %></h1>
+<%for(let data of finaldata.posts){%>
+<img src="<%=data.image%>"alt="image">
+<h1>likes:<%= data.likes%></h1>
+<h1>comments:<%= data.comments%></h1>
+<% } %>
+<button>click me </button>
+<%-include("includes/footer.ejs")%>
+</body>
+<script src="/app.js"></script>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram</title>
+</head>
+<body>
+    <h1>welcome this is your instagram page </h1>
+    <h1> this is your instagram name : <%=username%></h1>
+    <h1> this is your instagram id : <%=id%></h1>
+
+
+    <h1>your followers </h1>
+    <ol type="A">
+        <%for(let name of followers){%>
+            <li><h1><%= name %></h1></li>
+        <%  }%>
+    </ol>
+</body>
+</html>

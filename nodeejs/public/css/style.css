@@ -1,0 +1,14 @@
+*{
+    background-color: yellow;
+}
+img{
+    width: 100%;
+}
+button{
+    color:black;
+    background-color: white;
+}
+.footer{
+    background-color: rgb(19, 108, 138);
+    color: black;
+}
